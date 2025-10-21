@@ -23,6 +23,8 @@
   paper: "us-letter",
   author-position: left,
   personal-info-position: left,
+  author-font-size: 18pt,
+  font-size: 10pt,
 )
 
 /*
@@ -37,6 +39,10 @@
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
 */
+
+// toggle to include music stuff as well
+#let music = true
+
 == Education
 
 #edu(
@@ -45,8 +51,10 @@
   dates: dates-helper(start-date: "Aug 2024", end-date: "May 2028"),
   degree: "Bachelor's of Science, Cognitive Systems: Computational Intelligence & Design",
 )
-- Cumulative GPA: 4.33\/4.0
-- Relevant coursework: Models of Computation, Software Construction, Introduction to Music Technology
+- Cumulative GPA: 94%, 4.33\/4.33 equiv.
+- Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77)#if music {
+  [, Introduction to Music Technology (97/77)]
+}
 
 // #edu(
 //   institution: "NIST International School",
@@ -59,15 +67,18 @@
 
 == Work Experience
 
-#work(
-  title: "Music Producer and Mixing/Mastering Engineer",
-  location: "Vancouver, BC / Bangkok, TH",
-  company: "Freelance",
-  dates: dates-helper(start-date: "Auguust 2024", end-date: "Present"),
-)
-- Produced and engineered 2 EPs and 1 album, amassing 60,000+ streams in total on Spotify
-- Professionally mixed and mastered 2 singles and 1 EP, in line with genre and technical conventions
-- Communicated with clients to tailor services to their needs and budget constraints
+#if music {
+  [
+    #work(
+      title: "Music Producer and Mixing/Mastering Engineer",
+      location: "Vancouver, BC / Bangkok, TH",
+      company: "Freelance",
+      dates: dates-helper(start-date: "August 2024", end-date: "Present"),
+    )
+    - *Generated 60,000#sym.plus.small streams on Spotify.* Produced and engineered 3 releases (2 EPs, 1 album)
+    - Delivered professional mixing and mastering services for 3 releases, collaborating with clients to deliver industry-standard quality that met genre-specific technical requirements while aligning with artistic vision and budgets
+  ]
+}
 
 #work(
   title: "Analyst Intern",
@@ -75,8 +86,8 @@
   company: "Ratio Ventures Limited",
   dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
 )
-- Shadowed day-to-day VC operations; took lead on investor outreach, most notably on the extended seed round of Arogga, a Bangladeshi online pharmacy.
-- Presented a report on SEA's ClimateTech space to the fund managers, including historical and projected trends and sectors to look out for.
+- *Spearheaded investor outreach strategy for 24 portfolio companies*, most notably securing engagement for Arogga's extended seed round (a Bangladeshi online pharmacy)
+- Delivered comprehensive market analysis of SEA's ClimateTech sector to fund managers, surfacing emerging trends and high-potential investment verticals
 
 #work(
   title: "Engineer Intern",
@@ -84,20 +95,36 @@
   company: "ETRAN (Thailand) Co., Ltd.",
   dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
 )
-- Proposed a method for upcycling functional end-of-life EV batteries into energy storage units for houses in rural Thailand with restricted access to grid electricity.
-- Developed a process to integrate EV batteries with solar cells efficiently by studying their battery management and solar charge controller systems.
+- *Extended battery lifecycle and prevented #text(fill: red)[0.7n] batteries from reaching landfills by 2027.* Designed upcycling methodology to repurpose functional end-of-life EV batteries into off-grid energy storage units for houses in rural Thailand
+- Engineered and validated integration process between EV batteries and solar cells through battery management system and solar charge controller analysis
 
 == Projects
 
 #project(
   dates: "October 2025", 
-  name: "Mango: Full-Body Gesture Control For Any Game | Winner, HelloHacks 2025",
+  name: "Mango: Full-Body Gesture Control For Any Game",
   role: "Lead Developer",
-  url: "")
-  \ https://devpost.com/software/mango-full-body-gesture-control-for-any-game
-  - Developed and pitched a system that maps real-time body landmarks to keyboard and mouse inputs, creating a VR-like gaming experience that's open and affordable to everyone
-  - Received #nth(1) place at Biztech's HelloHacks 2025 hackathon
-  - Relevant tools/libraries: MediaPipe, OpenCV, PyAutoGUI, NumPy, Python
+  url: "") \
+  #link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
+  - Architected computer vision system leveraging real-time detection of 520+ body landmarks to translate physical movements into keyboard/mouse inputs, democratizing VR-like gaming experiences
+  - Received *#nth(1) place* at UBC Biztech's HelloHacks 2025 hackathon
+  - Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
+
+#project(
+  dates: "February 2024", 
+  name: "NISTtech Coding Competition Grader",
+  role: "Designer & Developer",
+  url: "") \
+  #link("https://nisttech-grader-v2.vercel.app/")[nisttech-grader-v2.vercel.app/] | 
+  #link("https://github.com/peteseta/nisttech-grader")[github.com/peteseta/nisttech-grader]
+  - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
+  - Engineered user authentication, parallelized code execution in sandboxed environments, and automated feedback generation.
+  - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
+  
+== Technical Skills
+*Languages:* Python, Java, R, TypeScript, JavaScript \
+*Frameworks & Libraries:* SvelteKit, Astro, Next.JS, TailwindCSS, MediaPipe, OpenCV, NumPy \
+*Tools & Platforms:* Vercel, Supabase, Git, Figma
 
 == Leadership and Activities
 
@@ -107,14 +134,14 @@
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- Planned and executed 2 events during the fall semester, increasing turnout and engagement from the previous academic year
-- Coordinated promotional materials across the policy and technical teams
+- *Drove 220% increase in attendance compared to prior semester.* Designed and executed 2 campus events.
+- *Expanded social media engagement by 570%.* Coordinated cross-team promotional campaigns and inter-club partnerships
 
-#work(
-  title: "Founding Member",
-  location: "Vancouver, BC / Bangkok, TH",
-  company: "Association of Thai Students in Canada (ATCA)",
-  dates: dates-helper(start-date: "June 2025", end-date: "Present"),
-)
-- consulate something something
-- managed something else
+// #work(
+//   title: "Founding Member",
+//   location: "Vancouver, BC / Bangkok, TH",
+//   company: "Association of Thai Students in Canada (ATCA)",
+//   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
+// )
+// - consulate something something
+// - managed something else
