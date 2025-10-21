@@ -24,7 +24,7 @@
   author-position: left,
   personal-info-position: left,
   author-font-size: 18pt,
-  font-size: 10pt,
+  font-size: 9.7pt,
 )
 
 /*
@@ -118,13 +118,12 @@
   #link("https://nisttech-grader-v2.vercel.app/")[nisttech-grader-v2.vercel.app/] | 
   #link("https://github.com/peteseta/nisttech-grader")[github.com/peteseta/nisttech-grader]
   - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
-  - Engineered user authentication, parallelized code execution in sandboxed environments, and automated feedback generation.
+  - Engineered user authentication, parallelized & sandboxed code execution, and automated feedback generation.
   - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
   
 == Technical Skills
-*Languages:* Python, Java, R, TypeScript, JavaScript \
-*Frameworks & Libraries:* SvelteKit, Astro, Next.JS, TailwindCSS, MediaPipe, OpenCV, NumPy \
-*Tools & Platforms:* Vercel, Supabase, Git, Figma
+*Languages:* Python, Java, R, TypeScript, JavaScript | *Tools & Platforms:* Vercel, Supabase, Git, Figma \
+*Frameworks & Libraries:* SvelteKit, Astro, Next.JS, TailwindCSS, MediaPipe, OpenCV, NumPy 
 
 == Leadership and Activities
 
