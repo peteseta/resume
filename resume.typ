@@ -86,7 +86,7 @@
   company: "Ratio Ventures Limited",
   dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
 )
-- *Spearheaded investor outreach strategy for 24 portfolio companies*, most notably securing engagement for Arogga's extended seed round (a Bangladeshi online pharmacy)
+- *Spearheaded investor outreach strategy for 24 portfolio companies*, most notably securing engagement for the extended seed round of Arogga, an online pharmacy
 - Delivered comprehensive market analysis of SEA's ClimateTech sector to fund managers, surfacing emerging trends and high-potential investment verticals
 
 #work(
