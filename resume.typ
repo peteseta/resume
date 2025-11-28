@@ -84,11 +84,11 @@
 
 #project(
   dates: "November 2025",
-  name: "GrillMe AI: Personalized Mock Interviews That Actually Prepare You",
+  name: "GrillMe AI: Mock Interview Platform",
   role: "Full-stack Developer",
   url: "") \
-  #link("devpost.com/software/grillme-ai")
-  - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and specific feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition and 200+ organic signups
+  #link("https://devpost.com/software/grillme-ai")[devpost.com/software/grillme-ai]
+  - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and automated feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition and 200+ organic signups
   - Optimized LLM inference pipeline by 80% (2.5min #sym.arrow 30sec) through model selection and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
   - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript/JavaScript, Cloudflare Pages/Workers_
 
