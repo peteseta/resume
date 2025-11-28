@@ -68,8 +68,8 @@
   company: "Ratio Ventures Limited",
   dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
 )
-- *Spearheaded investor outreach strategy for 24 portfolio companies*, most notably securing engagement for the extended seed round of Arogga, an online pharmacy
-- Delivered comprehensive market analysis of SEA's ClimateTech sector to fund managers, surfacing emerging trends and high-potential investment verticals, which helped the firm to screen companies and source deals
+- *Led investor outreach strategy across 24 portfolio companies*, securing key stakeholder engagement for Arogga's extended seed round through targeted relationship building and pitch refinement
+- Delivered market analysis of Southeast Asia's ClimateTech sector, identifying emerging investment verticals and high-potential opportunities that informed fund managers' deal sourcing and screening decisions
 
 #work(
   title: "Engineer Intern",
@@ -77,29 +77,29 @@
   company: "ETRAN (Thailand) Co., Ltd.",
   dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
 )
-- *Extended battery lifecycle and prevented 5,400 batteries from reaching landfills by 2027.* Designed upcycling methodology to repurpose functional end-of-life EV batteries into off-grid energy storage units for houses in rural Thailand
-- Engineered and validated integration process between EV batteries and solar cells through battery management system and solar charge controller analysis
+- *Extended battery lifecycle of prevented 5,400 batteries from reaching landfills by 2027.* Identified sustainability opportunity in EV battery waste and designed upcycling solution providing off-grid energy storage to underserved rural communities
+- Collaborated with engineering team to validate battery-to-solar integration feasibility, balancing technical constraints with cost and user accessibility requirements
 
 == Projects
 
 #project(
   dates: "November 2025",
-  name: "GrillMe AI: Personalized Mock Interviews That Actually Prepare You",
-  role: "Full-stack Developer",
+  name: "GrillMe AI: AI Mock Interview Platform",
+  role: "Product Lead & Full-stack Developer",
   url: "") \
   #link("devpost.com/software/grillme-ai")
-  - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and specific feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition and 200+ organic signups
-  - Optimized LLM inference pipeline by 80% (2.5min #sym.arrow 30sec) through model selection and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
+  - Identified interview prep accessibility gap for early-career students and led 4-person team to ship MVP in 12 hours; validated product-market fit through *200+ organic waitlist signups* and *top 4* finish at UBC BizTech/a16z's Kickstart competition
+  - Defined product strategy prioritizing personalization (resume/JD-tailored questions) over generic alternatives; coordinated parallel development and made critical trade-off decisions that reduced user wait time by 80% based on early feedback
   - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript/JavaScript, Cloudflare Pages/Workers_
 
 #project(
   dates: "October 2025", 
   name: "Mango: Full-Body Gesture Control For Any Game",
-  role: "Lead Developer",
+  role: "Product Lead & Developer",
   url: "") \
   #link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
-  - Architected real-time computer vision system leveraging real-time detection of 520+ body landmarks to translate physical movements into keyboard/mouse inputs, democratizing VR-like gaming experiences
-  - Received *#nth(1) place* at UBC BizTech's HelloHacks 2025 hackathon
+  - Identified accessibility gap in VR-like gaming experiences and led team to build gesture control system that democratizes immersive gameplay without expensive hardware; received *1st place* at UBC BizTech's HelloHacks 2025
+  - Drove technical strategy and development of real-time gesture recognition system of 520+ body landmarks, prioritizing low-latency performance and ease-of-use through iterative testing
   - Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
 
 // #project(
@@ -127,8 +127,8 @@
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- *Drove 220% increase in attendance compared to prior semester.* Designed and executed 2 campus events.
-- *Expanded social media engagement by 570%.* Coordinated cross-team promotional campaigns and inter-club partnerships
+- *Drove 220% attendance increase* through strategic event planning and execution, identifying high-impact event formats and speaker partnerships that resonated with student interests
+- *Expanded social media engagement by 570%* through cross-functional collaboration with marketing team and inter-club partnerships, building sustainable growth channels
 
 // #work(
 //   title: "Founding Member",
