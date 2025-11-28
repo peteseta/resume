@@ -41,7 +41,7 @@
 */
 
 // toggle to include music stuff as well
-#let music = true
+#let music = false
 
 == Education
 
@@ -101,6 +101,16 @@
 == Projects
 
 #project(
+  dates: "November 2025",
+  name: "GrillMe AI: Personalized Mock Interviews That Actually Prepare You",
+  role: "Full-stack Developer",
+  url: "") \
+  #link("devpost.com/software/grillme-ai")
+  - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and automated feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition
+  - Optimized LLM inference pipeline by 80% (2.5min → 30sec) through model selection and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
+  - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript/JavaScript, Cloudflare Pages/Workers_
+
+#project(
   dates: "October 2025", 
   name: "Mango: Full-Body Gesture Control For Any Game",
   role: "Lead Developer",
@@ -125,7 +135,7 @@
 *Languages*: Python, Java, TypeScript, JavaScript, R | 
 *AI/ML & Data*: MediaPipe, OpenCV, NumPy, Tensorflow \
 *Web Development*: SvelteKit, Astro, Next.JS, TailwindCSS | 
-*Tools & Platforms*: Vercel, Supabase, Git, Figma
+*Tools & Platforms*: Cloudflare, Vercel, Supabase, Git, Figma
 
 == Leadership and Activities
 
