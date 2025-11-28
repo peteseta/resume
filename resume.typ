@@ -40,9 +40,6 @@
 * #generic-one-by-two(left: "", right: "")
 */
 
-// toggle to include music stuff as well
-#let music = false
-
 == Education
 
 #edu(
@@ -52,9 +49,7 @@
   degree: "Bachelor's of Science, Cognitive Systems: Computational Intelligence & Design",
 )
 - Cumulative GPA: 94%, 4.33\/4.33 equiv.
-- Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77)#if music {
-  [, Introduction to Music Technology (97/77)]
-}
+- Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77)
 
 // #edu(
 //   institution: "NIST International School",
@@ -66,19 +61,6 @@
 // - Bilingual diploma in English and Thai
 
 == Work Experience
-
-#if music {
-  [
-    #work(
-      title: "Music Producer and Mixing/Mastering Engineer",
-      location: "Vancouver, BC / Bangkok, TH",
-      company: "Freelance",
-      dates: dates-helper(start-date: "August 2024", end-date: "Present"),
-    )
-    - *Generated 60,000#sym.plus.small streams on Spotify.* Produced and engineered 3 releases (2 EPs, 1 album)
-    - Delivered professional mixing and mastering services for 3 releases, collaborating with clients to deliver industry-standard quality that met genre-specific technical requirements while aligning with artistic vision and budgets
-  ]
-}
 
 #work(
   title: "Analyst Intern",
@@ -106,8 +88,8 @@
   role: "Full-stack Developer",
   url: "") \
   #link("devpost.com/software/grillme-ai")
-  - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and automated feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition
-  - Optimized LLM inference pipeline by 80% (2.5min → 30sec) through model selection and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
+  - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and specific feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition and 200+ organic signups
+  - Optimized LLM inference pipeline by 80% (2.5min #sym.arrow 30sec) through model selection and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
   - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript/JavaScript, Cloudflare Pages/Workers_
 
 #project(
@@ -117,19 +99,19 @@
   url: "") \
   #link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
   - Architected real-time computer vision system leveraging real-time detection of 520+ body landmarks to translate physical movements into keyboard/mouse inputs, democratizing VR-like gaming experiences
-  - Received *#nth(1) place* at UBC Biztech's HelloHacks 2025 hackathon
+  - Received *#nth(1) place* at UBC BizTech's HelloHacks 2025 hackathon
   - Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
 
-#project(
-  dates: "February 2024", 
-  name: "NISTtech Coding Competition Grader",
-  role: "Designer & Developer",
-  url: "") \
-  #link("https://nisttech-grader-v2.vercel.app/")[nisttech-grader-v2.vercel.app/] | 
-  #link("https://github.com/peteseta/nisttech-grader")[github.com/peteseta/nisttech-grader]
-  - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
-  - Engineered user authentication, parallelized & sandboxed code execution, and automated feedback generation.
-  - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
+// #project(
+//   dates: "February 2024", 
+//   name: "NISTtech Coding Competition Grader",
+//   role: "Designer & Developer",
+//   url: "") \
+//   #link("https://nisttech-grader-v2.vercel.app/")[nisttech-grader-v2.vercel.app/] | 
+//   #link("https://github.com/peteseta/nisttech-grader")[github.com/peteseta/nisttech-grader]
+//   - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
+//   - Engineered user authentication, parallelized & sandboxed code execution, and display of grading results.
+//   - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
   
 == Technical Skills
 *Languages*: Python, Java, TypeScript, JavaScript, R | 
