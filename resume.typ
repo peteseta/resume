@@ -127,8 +127,8 @@
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- *Drove 220% increase in attendance compared to prior semester.* Designed and executed 2 campus events.
-- *Expanded social media engagement by 570%.* Coordinated cross-team promotional campaigns and inter-club partnerships
+- *Drove 220% attendance increase* through strategic event planning and execution, identifying high-impact event formats and speaker partnerships that resonated with student interests
+- *Expanded social media engagement by 570%* through cross-functional collaboration with marketing team and inter-club partnerships, building sustainable growth channels
 
 // #work(
 //   title: "Founding Member",
