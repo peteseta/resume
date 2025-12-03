@@ -4,7 +4,8 @@
 // Put your personal information here, replacing mine
 #let name = "Peti (Pete) Setabandhu"
 #let location = "Vancouver, BC"
-#let email = "petesetabandhu@gmail.com"
+// #let email = "petesetabandhu@gmail.com"
+#let email = "peteseta@student.ubc.ca"
 #let github = "github.com/peteseta"
 #let linkedin = "linkedin.com/in/peteseta"
 #let phone = "(236)-983-5133"
@@ -60,26 +61,6 @@
 // - IB score: 43/45
 // - Bilingual diploma in English and Thai
 
-== Work Experience
-
-#work(
-  title: "Analyst Intern",
-  location: "Bangkok, TH / London, UK",
-  company: "Ratio Ventures Limited",
-  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
-)
-- *Spearheaded investor outreach strategy for 24 portfolio companies*, most notably securing engagement for the extended seed round of Arogga, an online pharmacy
-- Delivered comprehensive market analysis of SEA's ClimateTech sector to fund managers, surfacing emerging trends and high-potential investment verticals, which helped the firm to screen companies and source deals
-
-#work(
-  title: "Engineer Intern",
-  location: "Bangkok, TH",
-  company: "ETRAN (Thailand) Co., Ltd.",
-  dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
-)
-- *Extended battery lifecycle and prevented 5,400 batteries from reaching landfills by 2027.* Designed upcycling methodology to repurpose functional end-of-life EV batteries into off-grid energy storage units for houses in rural Thailand
-- Engineered and validated integration process between EV batteries and solar cells through battery management system and solar charge controller analysis
-
 == Projects
 
 #project(
@@ -89,8 +70,8 @@
   url: "") \
   #link("https://devpost.com/software/grillme-ai")[devpost.com/software/grillme-ai]
   - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and automated feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition and 200+ organic signups
-  - Optimized LLM inference pipeline by 80% (2.5min #sym.arrow 30sec) through model selection and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
-  - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript/JavaScript, Cloudflare Pages/Workers_
+  - Optimized LLM inference pipeline by 80% (2.5min #sym.arrow 30sec) through model switching and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
+  - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript, Cloudflare Pages + Workers_
 
 #project(
   dates: "October 2025", 
@@ -112,12 +93,31 @@
 //   - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
 //   - Engineered user authentication, parallelized & sandboxed code execution, and display of grading results.
 //   - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
+
+== Work Experience
+
+#work(
+  title: "Analyst Intern",
+  location: "Bangkok, TH / London, UK",
+  company: "Ratio Ventures Limited",
+  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
+)
+- Designed and executed data-driven investor outreach strategy across *24 portfolio companies*, most notably securing engagement for the extended seed round of Arogga, an online pharmacy
+- Delivered quantitative market analysis of SEA's ClimateTech sector to fund managers, surfacing high-potential investment verticals through systematic competitive research and trend analysis that shaped deal sourcing decisions
+
+#work(
+  title: "Engineer Intern",
+  location: "Bangkok, TH",
+  company: "ETRAN (Thailand) Co., Ltd.",
+  dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
+)
+- Extended battery lifecycle and *prevented 5,400 batteries from reaching landfills by 2027.* Architected battery upcycling system to repurpose functional end-of-life EV batteries into off-grid energy storage units for houses in rural Thailand
+- Engineered validation framework for battery-to-solar integration using BMS (Battery Management System) programming and MPPT solar charge controller interfacing; developed testing protocols to ensure efficiency and safety in a pilot installation
   
 == Technical Skills
-*Languages*: Python, Java, TypeScript, JavaScript, R | 
-*AI/ML & Data*: MediaPipe, OpenCV, NumPy, Tensorflow \
-*Web Development*: SvelteKit, Astro, Next.JS, TailwindCSS | 
-*Tools & Platforms*: Cloudflare, Vercel, Supabase, Git, Figma
+*Languages & Frameworks *: Python, Java, R, TS/JS (Next.JS), SvelteKit, Astro, Tailwind \
+*AI/ML & Data*: Tensorflow, MediaPipe, OpenCV, NumPy \
+*Tools & Platforms*: Cloudflare, Supabase, Vercel, Figma, Git
 
 == Leadership and Activities
 
