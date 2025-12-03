@@ -4,7 +4,8 @@
 // Put your personal information here, replacing mine
 #let name = "Peti (Pete) Setabandhu"
 #let location = "Vancouver, BC"
-#let email = "petesetabandhu@gmail.com"
+// #let email = "petesetabandhu@gmail.com"
+#let email = "peteseta@student.ubc.ca"
 #let github = "github.com/peteseta"
 #let linkedin = "linkedin.com/in/peteseta"
 #let phone = "(236)-983-5133"
@@ -60,26 +61,6 @@
 // - IB score: 43/45
 // - Bilingual diploma in English and Thai
 
-== Work Experience
-
-#work(
-  title: "Analyst Intern",
-  location: "Bangkok, TH / London, UK",
-  company: "Ratio Ventures Limited",
-  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
-)
-- *Led investor outreach strategy across 24 portfolio companies*, securing key stakeholder engagement for Arogga's extended seed round through targeted relationship building and pitch refinement
-- Delivered market analysis of Southeast Asia's ClimateTech sector, identifying emerging investment verticals and high-potential opportunities that informed fund managers' deal sourcing and screening decisions
-
-#work(
-  title: "Engineer Intern",
-  location: "Bangkok, TH",
-  company: "ETRAN (Thailand) Co., Ltd.",
-  dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
-)
-- *Extended battery lifecycle of prevented 5,400 batteries from reaching landfills by 2027.* Identified sustainability opportunity in EV battery waste and designed upcycling solution providing off-grid energy storage to underserved rural communities
-- Collaborated with engineering team to validate battery-to-solar integration feasibility, balancing technical constraints with cost and user accessibility requirements
-
 == Projects
 
 #project(
@@ -88,9 +69,9 @@
   role: "Product Lead & Full-stack Developer",
   url: "") \
   #link("devpost.com/software/grillme-ai")
-  - Identified interview prep accessibility gap for early-career students and led 4-person team to ship MVP in 12 hours; validated product-market fit through *200+ organic waitlist signups* and *top 4* finish at UBC BizTech/a16z's Kickstart competition
-  - Defined product strategy prioritizing personalization (resume/JD-tailored questions) over generic alternatives; coordinated parallel development and made critical trade-off decisions that reduced user wait time by 80% based on early feedback
-  - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript/JavaScript, Cloudflare Pages/Workers_
+  - Validated product-market fit with *200+ organic waitlist signups* and *top 4 finish* at UBC BizTech/a16z Kickstart, identifying interview prep accessibility gap for early-career students and leading *4-person team* to ship MVP in *12 hours*
+  - Reduced critical pain point (_time to interview start_) by *\~80%* by defining product strategy that prioritized personalization (resume/JD-tailored questions) over generic alternatives; coordinated parallel development and made critical scope trade-offs based on early user feedback
+  - Relevant tools/libraries: _Figma, Supabase, OpenAI/ElevenLabs APIs, TypeScript, Cloudflare_
 
 #project(
   dates: "October 2025", 
@@ -98,9 +79,9 @@
   role: "Product Lead & Developer",
   url: "") \
   #link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
-  - Identified accessibility gap in VR-like gaming experiences and led team to build gesture control system that democratizes immersive gameplay without expensive hardware; received *1st place* at UBC BizTech's HelloHacks 2025
-  - Drove technical strategy and development of real-time gesture recognition system of 520+ body landmarks, prioritizing low-latency performance and ease-of-use through iterative testing
-  - Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
+  - Won *1st place at HelloHacks 2025* by identifying accessibility gap in VR-like gaming experiences and leading team to democratize immersive gameplay without expensive hardware through gesture control system
+  - Delivered low-latency user experience by defining product requirements that balanced technical feasibility with ease-of-use, driving iterative testing that prioritized performance over feature breadth
+  - Relevant tools/libraries: _FigJam, MediaPipe, Python_ 
 
 // #project(
 //   dates: "February 2024", 
@@ -112,12 +93,31 @@
 //   - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
 //   - Engineered user authentication, parallelized & sandboxed code execution, and display of grading results.
 //   - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
+
+== Work Experience
+
+#work(
+  title: "Analyst Intern",
+  location: "Bangkok, TH / London, UK",
+  company: "Ratio Ventures Limited",
+  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
+)
+- Secured key stakeholder engagement for Arogga's extended seed round, managing investor strategy across *24 portfolio companies* through targeted relationship building and strategic pitch positioning
+- Shaped fund deployment strategy by identifying *high-potential ClimateTech verticals* in Southeast Asia market analysis, directly informing deal sourcing and screening decisions for fund allocation
+
+#work(
+  title: "Engineer Intern",
+  location: "Bangkok, TH",
+  company: "ETRAN (Thailand) Co., Ltd.",
+  dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
+)
+- Prevented *5,400+* batteries from landfills by 2027 while providing affordable energy access to underserved rural Thai households, identifying market opportunity in EV battery waste and designing upcycling solution
+- Validated product feasibility for battery-solar integration by balancing engineering constraints, cost targets, and user accessibility needs; defined technical requirements that enabled a *successful pilot installation*
   
 == Technical Skills
-*Languages*: Python, Java, TypeScript, JavaScript, R | 
-*AI/ML & Data*: MediaPipe, OpenCV, NumPy, Tensorflow \
-*Web Development*: SvelteKit, Astro, Next.JS, TailwindCSS | 
-*Tools & Platforms*: Cloudflare, Vercel, Supabase, Git, Figma
+*Product & Analytics*: Figma, Figjam, Notion, Cloudflare Analytics, Vercel Analytics, Typeform, Github Projects, SQL \
+*Development*: TypeScript, Python, Supabase, Git, Cloudflare, Vercel \
+*AI/ML*: OpenAI, Anthropic, OpenRouter, ElevenLabs, MediaPipe, Tensorflow
 
 == Leadership and Activities
 
@@ -127,8 +127,8 @@
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- *Drove 220% attendance increase* through strategic event planning and execution, identifying high-impact event formats and speaker partnerships that resonated with student interests
-- *Expanded social media engagement by 570%* through cross-functional collaboration with marketing team and inter-club partnerships, building sustainable growth channels
+- Grew event attendance by *220%* by identifying high-impact event formats and speaker partnerships that resonated with student interests, executing strategic planning that tripled community engagement
+- Expanded social media engagement by *570%* through cross-functional collaboration with marketing team and strategic inter-club partnerships, building sustainable growth channels beyond single events
 
 // #work(
 //   title: "Founding Member",
