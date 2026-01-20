@@ -70,7 +70,7 @@
   url: "") \
   #link("devpost.com/software/grillme-ai")
   - Validated product-market fit with *200+ organic waitlist signups* and *top 4 finish* at UBC BizTech/a16z Kickstart, identifying interview prep accessibility gap for early-career students and leading *4-person team* to ship MVP in *12 hours*
-  - Reduced critical pain point (_time to interview start_) by *\~80%* by defining product strategy that prioritized personalization (resume/JD-tailored questions) over generic alternatives; coordinated parallel development and made critical scope trade-offs based on early user feedback
+  - Reduced pain point (_time to interview start_) by *\~80%* by defining product strategy that prioritized personalization (resume/JD-tailored questions); coordinated parallel development and made critical scope trade-offs based on early user feedback
   - Relevant tools/libraries: _Figma, Supabase, OpenAI/ElevenLabs APIs, TypeScript, Cloudflare_
 
 #project(
@@ -97,6 +97,16 @@
 == Work Experience
 
 #work(
+  title: "Founding Product Lead",
+  location: "Vancouver, BC",
+  company: "Rebase",
+  dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
+)
+- Led product development from MVP to public beta, defining roadmap that prioritized core functionality (alpha) then differentiating features (beta) based on user testing
+- Managed 3-person engineering team using Kanban and milestone planning; scoped features, identified dependencies, and delegated parallel workstreams to ship on target
+- Redesigned resume editor around drag-and-drop paradigm based on user feedback; drove *85% latency reduction* by defining technical requirements for LLM pipeline
+
+#work(
   title: "Analyst Intern",
   location: "Bangkok, TH / London, UK",
   company: "Ratio Ventures Limited",
@@ -105,14 +115,14 @@
 - Secured key stakeholder engagement for Arogga's extended seed round, managing investor strategy across *24 portfolio companies* through targeted relationship building and strategic pitch positioning
 - Shaped fund deployment strategy by identifying *high-potential ClimateTech verticals* in Southeast Asia market analysis, directly informing deal sourcing and screening decisions for fund allocation
 
-#work(
-  title: "Engineer Intern",
-  location: "Bangkok, TH",
-  company: "ETRAN (Thailand) Co., Ltd.",
-  dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
-)
-- Prevented *5,400+* batteries from landfills by 2027 while providing affordable energy access to underserved rural Thai households, identifying market opportunity in EV battery waste and designing upcycling solution
-- Validated product feasibility for battery-solar integration by balancing engineering constraints, cost targets, and user accessibility needs; defined technical requirements that enabled a *successful pilot installation*
+// #work(
+//   title: "Engineer Intern",
+//   location: "Bangkok, TH",
+//   company: "ETRAN (Thailand) Co., Ltd.",
+//   dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
+// )
+// - Prevented *5,400+* batteries from landfills by 2027 while providing affordable energy access to underserved rural Thai households, identifying market opportunity in EV battery waste and designing upcycling solution
+// - Validated product feasibility for battery-solar integration by balancing engineering constraints, cost targets, and user accessibility needs; defined technical requirements that enabled a *successful pilot installation*
   
 == Technical Skills
 *Product & Analytics*: Figma, Figjam, Notion, Cloudflare Analytics, Vercel Analytics, Typeform, Github Projects, SQL \
