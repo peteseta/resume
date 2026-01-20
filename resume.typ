@@ -79,8 +79,7 @@
   role: "Lead Developer",
   url: "") \
   #link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
-  - Architected real-time computer vision system leveraging real-time detection of 520+ body landmarks to translate physical movements into keyboard/mouse inputs, democratizing VR-like gaming experiences
-  - Received *#nth(1) place* at UBC BizTech's HelloHacks 2025 hackathon
+  - Architected real-time computer vision system leveraging detection of 520+ body landmarks to translate physical movements into keyboard/mouse inputs, democratizing VR-like gaming; received *#nth(1) place* at UBC BizTech's HelloHacks 2025 hackathon
   - Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
 
 // #project(
@@ -97,12 +96,21 @@
 == Work Experience
 
 #work(
+  title: "Founding Engineer",
+  location: "Vancouver, BC",
+  company: "Rebase",
+  dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
+)
+- Improved LLM generation reliability from *\~60% to 99%+* via Zod constrained generation; reduced latency by *85%* through parallelized API calls and cut inference costs with model/prompt optimization
+- Architected Supabase schema with row-level security, CI/CD pipelines for database migrations, and rate limiting infrastructure
+- Led 3-person engineering team establishing code review and PR standards; designed drag-and-drop resume editor UX based on user testing
+
+#work(
   title: "Analyst Intern",
   location: "Bangkok, TH / London, UK",
   company: "Ratio Ventures Limited",
   dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
 )
-- Designed and executed data-driven investor outreach strategy across *24 portfolio companies*, most notably securing engagement for the extended seed round of Arogga, an online pharmacy
 - Delivered quantitative market analysis of SEA's ClimateTech sector to fund managers, surfacing high-potential investment verticals through systematic competitive research and trend analysis that shaped deal sourcing decisions
 
 #work(
@@ -111,8 +119,7 @@
   company: "ETRAN (Thailand) Co., Ltd.",
   dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
 )
-- Extended battery lifecycle and *prevented 5,400 batteries from reaching landfills by 2027.* Architected battery upcycling system to repurpose functional end-of-life EV batteries into off-grid energy storage units for houses in rural Thailand
-- Engineered validation framework for battery-to-solar integration using BMS (Battery Management System) programming and MPPT solar charge controller interfacing; developed testing protocols to ensure efficiency and safety in a pilot installation
+- Architected battery upcycling system preventing *5,400+ batteries* from landfills; engineered validation framework for battery-solar integration using BMS programming and MPPT interfacing
   
 == Technical Skills
 *Languages & Frameworks *: Python, Java, R, TS/JS (Next.JS), SvelteKit, Astro, Tailwind \
