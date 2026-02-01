@@ -69,7 +69,7 @@
   role: "Product Lead & Full-stack Developer",
   url: "") \
   #link("devpost.com/software/grillme-ai")
-  - Validated product-market fit with *200+ organic waitlist signups* and *top 4 finish* at UBC BizTech/a16z Kickstart, identifying interview prep accessibility gap for early-career students; led *4-person team* to ship MVP in *12 hours*
+  - Validated product-market fit with *200+ organic waitlist signups* and *top 4* at UBC BizTech/a16z Kickstart, identifying interview prep accessibility gap for early-career students; led *4-person team* to ship MVP in *12 hours*
   - Reduced pain point (_time to interview start_) by *\~80%* by defining product strategy that prioritized personalization (resume/JD-tailored questions); coordinated parallel development and made critical scope trade-offs based on early user feedback
   - Relevant tools/libraries: _Figma, Supabase, OpenAI/ElevenLabs APIs, TypeScript, Cloudflare_
 
@@ -136,7 +136,7 @@
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- Identified need for audience engagement tooling and shipped custom React webapp for Spectrum events (Jubilee Middle Ground-style), increasing participant engagement
+- Identified need for audience engagement tooling and shipped custom React webapp for hosting engaging Spectrum discussion activities (Jubilee Middle Ground-style)
 - Grew event attendance by *220%* and social media engagement by *570%* through strategic event planning, speaker partnerships, and cross-functional marketing collaboration
 
 // #work(
