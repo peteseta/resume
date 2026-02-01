@@ -25,7 +25,7 @@
   author-position: left,
   personal-info-position: left,
   author-font-size: 18pt,
-  font-size: 9.6pt,
+  font-size: 9.7pt,
 )
 
 /*
@@ -118,7 +118,7 @@
   company: "ETRAN (Thailand) Co., Ltd.",
   dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
 )
-- Architected battery upcycling system preventing *5,400+ batteries* from landfills; engineered validation framework for battery-solar integration using BMS programming and MPPT interfacing
+- Architected battery upcycling system preventing *5,400+ batteries* from landfills; validated battery-solar integration through BMS programming and MPPT interfacing
   
 == Technical Skills
 *Languages & Frameworks *: Python, Java, R, TS/JS (Next.JS), SvelteKit, Astro, Tailwind \
@@ -134,8 +134,7 @@
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
 - Built custom React webapp for Spectrum activity (Jubilee Middle Ground-style format), enabling real-time audience participation and opinion visualization
-- *Drove 220% attendance increase* through strategic event planning and execution, identifying high-impact event formats and speaker partnerships that resonated with student interests
-- *Expanded social media engagement by 570%* through cross-functional collaboration with marketing team and inter-club partnerships, building sustainable growth channels
+- Drove *220%* attendance increase and *570%* social media growth through strategic event planning, speaker partnerships, and cross-functional marketing collaboration
 
 // #work(
 //   title: "Founding Member",
