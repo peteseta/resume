@@ -25,7 +25,7 @@
   author-position: left,
   personal-info-position: left,
   author-font-size: 18pt,
-  font-size: 9.7pt,
+  font-size: 10pt,
 )
 
 /*
@@ -50,7 +50,7 @@
   degree: "Bachelor's of Science, Cognitive Systems: Computational Intelligence & Design",
 )
 - Cumulative GPA: 94%, 4.33\/4.33 equiv.
-- Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77)
+// - Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77)
 
 // #edu(
 //   institution: "NIST International School",
@@ -69,7 +69,7 @@
   role: "Product Lead & Full-stack Developer",
   url: "") \
   #link("devpost.com/software/grillme-ai")
-  - Validated product-market fit with *200+ organic waitlist signups* and *top 4 finish* at UBC BizTech/a16z Kickstart, identifying interview prep accessibility gap for early-career students and leading *4-person team* to ship MVP in *12 hours*
+  - Validated product-market fit with *200+ organic waitlist signups* and *top 4 finish* at UBC BizTech/a16z Kickstart, identifying interview prep accessibility gap for early-career students; led *4-person team* to ship MVP in *12 hours*
   - Reduced pain point (_time to interview start_) by *\~80%* by defining product strategy that prioritized personalization (resume/JD-tailored questions); coordinated parallel development and made critical scope trade-offs based on early user feedback
   - Relevant tools/libraries: _Figma, Supabase, OpenAI/ElevenLabs APIs, TypeScript, Cloudflare_
 
@@ -79,8 +79,7 @@
   role: "Product Lead & Developer",
   url: "") \
   #link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
-  - Won *1st place at HelloHacks 2025* by identifying accessibility gap in VR-like gaming experiences and leading team to democratize immersive gameplay without expensive hardware through gesture control system
-  - Delivered low-latency user experience by defining product requirements that balanced technical feasibility with ease-of-use, driving iterative testing that prioritized performance over feature breadth
+  - Won *1st place at HelloHacks 2025* by identifying accessibility gap in VR gaming and leading team to ship gesture control system; defined requirements balancing technical feasibility with UX, driving iterative testing
   - Relevant tools/libraries: _FigJam, MediaPipe, Python_ 
 
 // #project(
@@ -103,7 +102,7 @@
   dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
 )
 - Led product development from MVP to public beta, defining roadmap that prioritized core functionality (alpha) then differentiating features (beta) based on user testing
-- Managed 3-person engineering team using Kanban and milestone planning; scoped features, identified dependencies, and delegated parallel workstreams to ship on target
+- Managed 3-person engineering team using Kanban and milestone planning; established quality standards including CI/CD pipelines for database migrations and comprehensive test coverage for high-risk billing flows
 - Redesigned resume editor around drag-and-drop paradigm based on user feedback; drove *85% latency reduction* by defining technical requirements for LLM pipeline
 
 #work(
@@ -113,7 +112,7 @@
   dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
 )
 - Secured key stakeholder engagement for Arogga's extended seed round, managing investor strategy across *24 portfolio companies* through targeted relationship building and strategic pitch positioning
-- Shaped fund deployment strategy by identifying *high-potential ClimateTech verticals* in Southeast Asia market analysis, directly informing deal sourcing and screening decisions for fund allocation
+- Shaped fund deployment strategy by identifying high-potential ClimateTech verticals in Southeast Asia market analysis, directly informing deal sourcing and screening decisions for fund allocation
 
 // #work(
 //   title: "Engineer Intern",
@@ -137,8 +136,8 @@
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- Grew event attendance by *220%* by identifying high-impact event formats and speaker partnerships that resonated with student interests, executing strategic planning that tripled community engagement
-- Expanded social media engagement by *570%* through cross-functional collaboration with marketing team and strategic inter-club partnerships, building sustainable growth channels beyond single events
+- Identified need for audience engagement tooling and shipped custom React webapp for Spectrum events (Jubilee Middle Ground-style), increasing participant engagement
+- Grew event attendance by *220%* and social media engagement by *570%* through strategic event planning, speaker partnerships, and cross-functional marketing collaboration
 
 // #work(
 //   title: "Founding Member",
