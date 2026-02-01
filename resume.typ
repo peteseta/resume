@@ -25,7 +25,7 @@
   author-position: left,
   personal-info-position: left,
   author-font-size: 18pt,
-  font-size: 9.7pt,
+  font-size: 9.6pt,
 )
 
 /*
@@ -49,7 +49,7 @@
   dates: dates-helper(start-date: "Aug 2024", end-date: "May 2028"),
   degree: "Bachelor's of Science, Cognitive Systems: Computational Intelligence & Design",
 )
-- Cumulative GPA: 94%, 4.33\/4.33 equiv.
+- Cumulative GPA: 94%, 4.33\/4.33 equiv. 
 - Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77)
 
 // #edu(
@@ -69,9 +69,8 @@
   role: "Full-stack Developer",
   url: "") \
   #link("https://devpost.com/software/grillme-ai")[devpost.com/software/grillme-ai]
-  - Developed full-stack AI mock interview platform with resume/JD parsing, real-time conversational AI, and automated feedback generation; achieved *top 4* at UBC BizTech/a16z's Kickstart competition and 200+ organic signups
-  - Optimized LLM inference pipeline by 80% (2.5min #sym.arrow 30sec) through model switching and parameter tuning; designed database schema, API endpoints, and frontend-backend integration
-  - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript, Cloudflare Pages + Workers_
+  - Built full-stack AI mock interview platform with custom ElevenLabs voice agent and real-time feedback generation; *top 4* at UBC BizTech/a16z Kickstart competition (70+ teams); garnered *200+ organic signups* in first week
+  - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript, Cloudflare Workers_
 
 #project(
   dates: "October 2025", 
@@ -101,9 +100,9 @@
   company: "Rebase",
   dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
 )
-- Improved LLM generation reliability from *\~60% to 99%+* via Zod constrained generation; reduced latency by *85%* through parallelized API calls and cut inference costs with model/prompt optimization
-- Architected Supabase schema with row-level security, CI/CD pipelines for database migrations, and rate limiting infrastructure
-- Led 3-person engineering team establishing code review and PR standards; designed drag-and-drop resume editor UX based on user testing
+- Built production Stripe billing system handling subscription lifecycle, webhook error recovery, and credit race conditions; implemented JWT-secured cron functions and row-level security policies
+- Owned end-to-end resume import feature: PDF/DOCX parsing, LLM-based extraction with Zod schema validation, fuzzy matching, and atomic database transactions via Supabase RPC
+- Led 3-person engineering team through *62 PR reviews*, establishing code review standards; architected CI/CD pipelines for database migrations and schema-driven typing to prevent drift
 
 #work(
   title: "Analyst Intern",
@@ -134,6 +133,7 @@
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
+- Built custom React webapp for Spectrum activity (Jubilee Middle Ground-style format), enabling real-time audience participation and opinion visualization
 - *Drove 220% attendance increase* through strategic event planning and execution, identifying high-impact event formats and speaker partnerships that resonated with student interests
 - *Expanded social media engagement by 570%* through cross-functional collaboration with marketing team and inter-club partnerships, building sustainable growth channels
 
