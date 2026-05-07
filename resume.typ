@@ -49,8 +49,8 @@
   dates: dates-helper(start-date: "Aug 2024", end-date: "May 2028"),
   degree: "Bachelor's of Science, Cognitive Systems: Computational Intelligence & Design",
 )
-- Cumulative GPA: 94%, 4.33\/4.33 equiv. 
-- Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77)
+- Cumulative GPA: 91.3%, 4.33\/4.33 equiv. 
+- Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77), Basic Algorithms and Data Structures (90/78), Statistical Inference for Data Science (84/73)
 
 // #edu(
 //   institution: "NIST International School",
