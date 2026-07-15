@@ -100,9 +100,9 @@
   company: "TN Digital Solutions",
   dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
 )
-- Built a reusable LLM evaluation harness (Go payload capture, Python scoring) with capture/continue checkpointing that records baseline runs once, then replays *144* model swaps against *48* frozen checkpoints instead of rerunning the full pipeline; mapped the cost/quality Pareto frontier and found a config with a projected *~71%* lower cost at parity quality
-- Designed the correctness-gated scoring for a Thai-legal-AI eval (node-level law recall, grounding by unsupported-claim rate, blind pairwise LLM-as-judge, citation validity); built an audit that ties each LLM call to its issue-tree node by law/section-ID overlap and fails any run whose selections can't be traced, closing a gate that used to pass silently when logs were missing
-- Built _Kendulix_, an Excel-to-Schedulix job import and editor that reconciles workbook jobs against the live schedule with per-token fuzzy similarity scoring, virtualizes very large sheets, and reached *~100%* test coverage on the export path
+- Built a reusable LLM eval harness (Go capture, Python scoring) that replays *144* model swaps against *48* frozen baseline checkpoints; mapped a cost/quality Pareto frontier, finding a config with *\~71%* lower projected cost at parity quality
+- Designed correctness-gated scoring for a Thai-legal-AI eval (law recall, grounding by unsupported-claim rate, blind LLM-as-judge, citation validity) and an audit that fails any run whose selections can't be traced to source — closing a gate that previously passed silently
+- Researched the legal-RAG modeling space (hierarchy-aware chunking, BGE-M3 retrieval, local Thai models — Typhoon, SEA-LION) and measured how constrained decoding and reasoning affect answer faithfulness and citation grounding
 
 #work(
   title: "Founding Engineer",
