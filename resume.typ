@@ -49,7 +49,7 @@
   dates: dates-helper(start-date: "Aug 2024", end-date: "May 2028"),
   degree: "Bachelor's of Science, Cognitive Systems: Computational Intelligence & Design",
 )
-- Cumulative GPA: 91.3%, 4.33\/4.33 equiv. 
+- Cumulative GPA: 91.3%, 4.33\/4.33 equiv.
 - Relevant coursework (grade %/avg %): Computation, Programs, and Programming (95/76), Models of Computation (93/75), Software Construction (96/77), Basic Algorithms and Data Structures (90/78), Statistical Inference for Data Science (84/73)
 
 // #edu(
@@ -95,35 +95,28 @@
 == Work Experience
 
 #work(
+  title: "Software Engineer Intern",
+  location: "Bangkok, TH",
+  company: "TN Digital Solutions",
+  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
+)
+- Built the configuration and decisioning core of a loan origination system: a transactional engine that publishes multi-chunk JSON product drafts across *10+* relational tables atomically (new products with no code deploy), plus a credit-rules evaluator with a typed generic parser and dynamic dispatch over in-list, range, prefix, and multi-source rules spanning credit-bureau (NCB) and alternative data
+- Eliminated worker freezes in asynchronous Kafka consumers by classifying errors into retry (transient) vs. skip (malformed/business) paths and reclassifying malformed NCB XML as bad-requests so poison records stop stalling the queue; migrated external mocks from Stubby to WireMock and ran the stack on LocalStack
+- Built _Kenbani_, a log inspector (React 19, Bun, SQLite FTS5) that reconstructs distributed traces from Kibana/ELK logs into interactive SVG sequence diagrams; parses *1GB+* logs off the main thread with Bun workers and a custom streaming JSON parser resilient to SSH copy-paste line-wrapping
+
+#work(
   title: "Founding Engineer",
   location: "Vancouver, BC",
   company: "Rebase",
   dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
 )
 - Built production Stripe billing system handling subscription lifecycle, webhook error recovery, and credit race conditions; implemented JWT-secured cron functions and row-level security policies
-- Owned end-to-end resume import feature: PDF/DOCX parsing, LLM-based extraction with Zod schema validation, fuzzy matching, and atomic database transactions via Supabase RPC
 - Led 3-person engineering team through *62 PR reviews*, establishing code review standards; architected CI/CD pipelines for database migrations and schema-driven typing to prevent drift
-
-#work(
-  title: "Analyst Intern",
-  location: "Bangkok, TH / London, UK",
-  company: "Ratio Ventures Limited",
-  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
-)
-- Delivered quantitative market analysis of SEA's ClimateTech sector to fund managers, surfacing high-potential investment verticals through systematic competitive research and trend analysis that shaped deal sourcing decisions
-
-#work(
-  title: "Engineer Intern",
-  location: "Bangkok, TH",
-  company: "ETRAN (Thailand) Co., Ltd.",
-  dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
-)
-- Architected battery upcycling system preventing *5,400+ batteries* from landfills; validated battery-solar integration through BMS programming and MPPT interfacing
   
 == Technical Skills
-*Languages & Frameworks *: Python, Java, R, TS/JS (Next.JS), SvelteKit, Astro, Tailwind \
-*AI/ML & Data*: Tensorflow, MediaPipe, OpenCV, NumPy \
-*Tools & Platforms*: Cloudflare, Supabase, Vercel, Figma, Git
+*Languages & Frameworks*: Go, Python, Java, R, TS/JS (React, Next.js), SvelteKit, Astro, Tailwind \
+*Data & Infrastructure*: PostgreSQL, Kafka, SQLite, Docker, LocalStack, Cloudflare, Supabase, Vercel \
+*AI/ML & Tools*: Tensorflow, MediaPipe, OpenCV, NumPy, Git, Figma
 
 == Leadership and Activities
 
