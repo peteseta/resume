@@ -95,30 +95,23 @@
 == Work Experience
 
 #work(
+  title: "Software Engineer Intern",
+  location: "Bangkok, TH",
+  company: "TN Digital Solutions",
+  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
+)
+- Built a reusable LLM evaluation harness (Go payload capture, Python scoring) with capture/continue checkpointing that records baseline runs once, then replays *144* model swaps against *48* frozen checkpoints instead of rerunning the full pipeline; mapped the cost/quality Pareto frontier and found a config with a projected *~71%* lower cost at parity quality
+- Designed the correctness-gated scoring for a Thai-legal-AI eval (node-level law recall, grounding by unsupported-claim rate, blind pairwise LLM-as-judge, citation validity); built an audit that ties each LLM call to its issue-tree node by law/section-ID overlap and fails any run whose selections can't be traced, closing a gate that used to pass silently when logs were missing
+- Built _Kendulix_, an Excel-to-Schedulix job import and editor that reconciles workbook jobs against the live schedule with per-token fuzzy similarity scoring, virtualizes very large sheets, and reached *~100%* test coverage on the export path
+
+#work(
   title: "Founding Engineer",
   location: "Vancouver, BC",
   company: "Rebase",
   dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
 )
 - Built production Stripe billing system handling subscription lifecycle, webhook error recovery, and credit race conditions; implemented JWT-secured cron functions and row-level security policies
-- Owned end-to-end resume import feature: PDF/DOCX parsing, LLM-based extraction with Zod schema validation, fuzzy matching, and atomic database transactions via Supabase RPC
 - Led 3-person engineering team through *62 PR reviews*, establishing code review standards; architected CI/CD pipelines for database migrations and schema-driven typing to prevent drift
-
-#work(
-  title: "Analyst Intern",
-  location: "Bangkok, TH / London, UK",
-  company: "Ratio Ventures Limited",
-  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
-)
-- Delivered quantitative market analysis of SEA's ClimateTech sector to fund managers, surfacing high-potential investment verticals through systematic competitive research and trend analysis that shaped deal sourcing decisions
-
-#work(
-  title: "Engineer Intern",
-  location: "Bangkok, TH",
-  company: "ETRAN (Thailand) Co., Ltd.",
-  dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
-)
-- Architected battery upcycling system preventing *5,400+ batteries* from landfills; validated battery-solar integration through BMS programming and MPPT interfacing
   
 == Technical Skills
 *Languages & Frameworks *: Python, Java, R, TS/JS (Next.JS), SvelteKit, Astro, Tailwind \
