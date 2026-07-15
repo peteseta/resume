@@ -101,8 +101,8 @@
   company: "TN Digital Solutions",
   dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
 )
-- Shipped a self-serve configuration studio (React/TS) for a loan origination system, letting bank operators build, validate, and publish credit-decisioning policies (bureau + alternative data) without engineering involvement; localized it for Thai users
-- Built _Kendulix_, an Excel-to-Schedulix job import and editor; scoped it from developer interviews and shipped a quick-add flow (treating the live schedule as source of truth) from their feedback, plus fuzzy reconciliation for matching jobs in very large sheets
+- Delivered self-serve loan-product creation for Government Savings Bank: shipped the operator-facing policy studio (React/TS) and the publishing engine behind it, letting staff design, validate, and launch new credit products with no engineering involvement
+- Owned model selection for a Thai legal-AI product via a cost/quality LLM-as-judge evaluation, identifying a configuration with *\~71%* lower projected cost at parity quality
 
 #work(
   title: "Founding Product Lead",
