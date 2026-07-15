@@ -25,7 +25,7 @@
   author-position: left,
   personal-info-position: left,
   author-font-size: 18pt,
-  font-size: 10pt,
+  font-size: 9.7pt,
 )
 
 /*
@@ -96,14 +96,21 @@
 == Work Experience
 
 #work(
+  title: "Software Engineer Intern",
+  location: "Bangkok, TH",
+  company: "TN Digital Solutions",
+  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
+)
+- Shipped a self-serve configuration studio (React/TS) for a loan origination system, letting bank operators build, validate, and publish credit-decisioning policies (bureau + alternative data) without engineering involvement; localized it for Thai users
+- Built _Kendulix_, an Excel-to-Schedulix job import and editor; scoped it from developer interviews and shipped a quick-add flow (treating the live schedule as source of truth) from their feedback, plus fuzzy reconciliation for matching jobs in very large sheets
+
+#work(
   title: "Founding Product Lead",
   location: "Vancouver, BC",
   company: "Rebase",
   dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
 )
-- Led product development from MVP to public beta, defining roadmap that prioritized core functionality (alpha) then differentiating features (beta) based on user testing
-- Managed 3-person engineering team using Kanban and milestone planning; established quality standards including CI/CD pipelines for database migrations and comprehensive test coverage for high-risk billing flows
-- Redesigned resume editor around drag-and-drop paradigm based on user feedback; drove *85% latency reduction* by defining technical requirements for LLM pipeline
+- Led product development from MVP to public beta, defining a roadmap that prioritized core functionality then differentiating features based on user testing; drove *85% latency reduction* by setting technical requirements for the LLM pipeline
 
 #work(
   title: "Analyst Intern",
@@ -111,8 +118,7 @@
   company: "Ratio Ventures Limited",
   dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
 )
-- Secured key stakeholder engagement for Arogga's extended seed round, managing investor strategy across *24 portfolio companies* through targeted relationship building and strategic pitch positioning
-- Shaped fund deployment strategy by identifying high-potential ClimateTech verticals in Southeast Asia market analysis, directly informing deal sourcing and screening decisions for fund allocation
+- Secured key stakeholder engagement for Arogga's extended seed round, managing investor strategy across *24 portfolio companies*; shaped fund deployment by identifying high-potential SEA ClimateTech verticals that informed deal sourcing and screening
 
 // #work(
 //   title: "Engineer Intern",
