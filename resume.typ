@@ -73,7 +73,7 @@
   - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript, Cloudflare Workers_
 
 #project(
-  dates: "October 2025", 
+  dates: "October 2025",
   name: "Mango: Full-Body Gesture Control For Any Game",
   role: "Lead Developer",
   url: "") \
@@ -82,11 +82,11 @@
   - Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
 
 // #project(
-//   dates: "February 2024", 
+//   dates: "February 2024",
 //   name: "NISTtech Coding Competition Grader",
 //   role: "Designer & Developer",
 //   url: "") \
-//   #link("https://nisttech-grader-v2.vercel.app/")[nisttech-grader-v2.vercel.app/] | 
+//   #link("https://nisttech-grader-v2.vercel.app/")[nisttech-grader-v2.vercel.app/] |
 //   #link("https://github.com/peteseta/nisttech-grader")[github.com/peteseta/nisttech-grader]
 //   - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
 //   - Engineered user authentication, parallelized & sandboxed code execution, and display of grading results.
@@ -100,9 +100,9 @@
   company: "TN Digital Solutions",
   dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
 )
-- Built the configuration and decisioning core of a loan origination system: a transactional engine that publishes multi-chunk JSON product drafts across *10+* relational tables atomically (new products with no code deploy), plus a credit-rules evaluator with a typed generic parser and dynamic dispatch over in-list, range, prefix, and multi-source rules spanning credit-bureau (NCB) and alternative data
-- Eliminated worker freezes in asynchronous Kafka consumers by classifying errors into retry (transient) vs. skip (malformed/business) paths and reclassifying malformed NCB XML as bad-requests so poison records stop stalling the queue; migrated external mocks from Stubby to WireMock and ran the stack on LocalStack
-- Built _Kenbani_, a log inspector (React 19, Bun, SQLite FTS5) that reconstructs distributed traces from Kibana/ELK logs into interactive SVG sequence diagrams; parses *1GB+* logs off the main thread with Bun workers and a custom streaming JSON parser resilient to SSH copy-paste line-wrapping
+- Built the config-driven core of Government Savings Bank's loan-origination platform (Go microservices, *20*+ eng team): a transactional engine that atomically publishes product drafts across *10*+ tables, so the bank ships new loan products with no code deploy
+- Hardened async Kafka consumers with retry-vs-skip error classification, eliminating poison-record worker freezes; migrated external mocks Stubby #sym.arrow WireMock and ran the stack on LocalStack
+- Built _Kenbani_, a log inspector (React 19, Bun, SQLite FTS5) reconstructing distributed traces into interactive SVG sequence diagrams; parses *1GB+* logs off the main thread with a streaming JSON parser resilient to SSH line-wrapping
 
 #work(
   title: "Founding Engineer",
@@ -112,7 +112,7 @@
 )
 - Built production Stripe billing system handling subscription lifecycle, webhook error recovery, and credit race conditions; implemented JWT-secured cron functions and row-level security policies
 - Led 3-person engineering team through *62 PR reviews*, establishing code review standards; architected CI/CD pipelines for database migrations and schema-driven typing to prevent drift
-  
+
 == Technical Skills
 *Languages & Frameworks*: Go, Python, Java, R, TS/JS (React, Next.js), SvelteKit, Astro, Tailwind \
 *Data & Infrastructure*: PostgreSQL, Kafka, SQLite, Docker, LocalStack, Cloudflare, Supabase, Vercel \
