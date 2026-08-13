@@ -61,37 +61,6 @@
 // - IB score: 43/45
 // - Bilingual diploma in English and Thai
 
-== Projects
-
-#project(
-  dates: "November 2025",
-  name: "GrillMe AI: Mock Interview Platform",
-  role: "Full-stack Developer",
-  url: "") \
-  #link("https://devpost.com/software/grillme-ai")[devpost.com/software/grillme-ai]
-  - Built full-stack AI mock interview platform with custom ElevenLabs voice agent and real-time feedback generation; *top 4* at UBC BizTech/a16z Kickstart competition (70+ teams); garnered *200+ organic signups* in first week
-  - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript, Cloudflare Workers_
-
-#project(
-  dates: "October 2025", 
-  name: "Mango: Full-Body Gesture Control For Any Game",
-  role: "Lead Developer",
-  url: "") \
-  #link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
-  - Architected real-time computer vision system leveraging detection of 520+ body landmarks to translate physical movements into keyboard/mouse inputs, democratizing VR-like gaming; received *#nth(1) place* at UBC BizTech's HelloHacks 2025 hackathon
-  - Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
-
-// #project(
-//   dates: "February 2024", 
-//   name: "NISTtech Coding Competition Grader",
-//   role: "Designer & Developer",
-//   url: "") \
-//   #link("https://nisttech-grader-v2.vercel.app/")[nisttech-grader-v2.vercel.app/] | 
-//   #link("https://github.com/peteseta/nisttech-grader")[github.com/peteseta/nisttech-grader]
-//   - *Served 14 participants across 3 Southeast Asian schools*. Built and deployed a bespoke full-stack competition platform, simplifying submission, grading, and real-time leaderboard tracking
-//   - Engineered user authentication, parallelized & sandboxed code execution, and display of grading results.
-//   - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
-
 == Work Experience
 
 #work(
@@ -100,34 +69,53 @@
   company: "TN Digital Solutions",
   dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
 )
-- Built a reusable LLM eval harness (Go capture, Python scoring) that replays *144* model swaps against *48* frozen baseline checkpoints; mapped a cost/quality Pareto frontier, finding a config with *\~71%* lower projected cost at parity quality
-- Designed correctness-gated scoring for a Thai-legal-AI eval (law recall, grounding by unsupported-claim rate, blind LLM-as-judge, citation validity) and an audit that fails any run whose selections can't be traced to source — closing a gate that previously passed silently
-- Researched the legal-RAG modeling space (hierarchy-aware chunking, BGE-M3 retrieval, local Thai models — Typhoon, SEA-LION) and measured how constrained decoding and reasoning affect answer faithfulness and citation grounding
+- Reduced average pipeline-run cost 22.7% while increasing law recall 69.1% by building a reusable Go/Python harness to map a cost/quality Pareto frontier; made reusable by building a generic evaluation orchestrator and microservice adapters
+- Made Thai legal-AI evaluations more trustworthy by validating an LLM judge against a human lawyer and pairing it with deterministic citation, recall, and unsupported-claim checks
+- Researched the legal-RAG modeling space (hierarchy-aware chunking, BGE-M3 retrieval, Thai fine-tuned models like Typhoon or SEA-LION) and measured how constrained decoding and reasoning affect answer faithfulness and citation grounding
 
-#work(
-  title: "Founding Engineer",
-  location: "Vancouver, BC",
-  company: "Rebase",
-  dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
+== Projects
+
+#project(
+name: "Rebase: Version Control for Resumes",
+role: "Founding Engineer",
+dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
 )
 - Built production Stripe billing system handling subscription lifecycle, webhook error recovery, and credit race conditions; implemented JWT-secured cron functions and row-level security policies
 - Led 3-person engineering team through *62 PR reviews*, establishing code review standards; architected CI/CD pipelines for database migrations and schema-driven typing to prevent drift
-  
+
+#project(
+dates: "November 2025",
+name: "GrillMe AI: Mock Interview Platform",
+role: "Full-stack Developer",
+url: "") \
+#link("https://devpost.com/software/grillme-ai")[devpost.com/software/grillme-ai]
+- Built full-stack AI mock interview platform with custom ElevenLabs voice agent and real-time feedback generation, winning *top 4 of 70+* teams at UBC BizTech/a16z Kickstart competition and garnering *200+ organic signups* in first week
+- Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript, Cloudflare Workers_
+
+#project(
+dates: "October 2025",
+name: "Mango: Full-Body Gesture Control For Any Game",
+role: "Lead Developer",
+url: "") \
+#link("https://devpost.com/software/mango-full-body-gesture-control-for-any-game")[devpost.com/software/mango-full-body-gesture-control-for-any-game]
+- Architected real-time computer vision system leveraging detection of 520+ body landmarks to translate physical movements into keyboard/mouse inputs, democratizing VR-like gaming; received *#nth(1) place* at UBC BizTech's HelloHacks 2025 hackathon
+- Relevant tools/libraries: _MediaPipe, OpenCV, PyAutoGUI, NumPy, Python_
+
 == Technical Skills
-*Languages & Frameworks *: Python, Java, R, TS/JS (Next.JS), SvelteKit, Astro, Tailwind \
-*AI/ML & Data*: Tensorflow, MediaPipe, OpenCV, NumPy \
-*Tools & Platforms*: Cloudflare, Supabase, Vercel, Figma, Git
+*Languages & Frameworks*: Go, Python, Java, R, TS/JS (React, Next.js), SvelteKit, Astro, Tailwind \
+*Data & Infrastructure*: Jupyter, Marimo, PostgreSQL, Kafka, SQLite, Docker, LocalStack, Cloudflare, Supabase, Vercel \
+*AI/ML & Tools*: Tensorflow, MediaPipe, OpenCV, NumPy, Git, Figma
 
 == Leadership and Activities
 
 #work(
-  title: "Event Committee Executive",
+  title: "Co-President",
   location: "Vancouver, BC",
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- Built custom React webapp for Spectrum activity (Jubilee Middle Ground-style format), enabling real-time audience participation and opinion visualization
-- Drove *220%* attendance increase and *570%* social media growth through strategic event planning, speaker partnerships, and cross-functional marketing collaboration
+- Led a team of 16 to organize programs, events, reading groups, and workshops for Canada's most established AI safety student organization, with the goal of reducing existential and catastraphoic risks from advanced AI systems
+- As prev. Co-Facilitator, designed the curriculum for and facilitated this year's “Intro to AI Alignment” course for a cohort of ~10 students; as prev. Event Coordinator, built custom React webapp for Spectrum activity to engage participants in real-time
 
 // #work(
 //   title: "Founding Member",
