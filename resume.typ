@@ -61,7 +61,27 @@
 // - IB score: 43/45
 // - Bilingual diploma in English and Thai
 
+== Work Experience
+
+#work(
+  title: "Software Engineer Intern",
+  location: "Bangkok, TH",
+  company: "TN Digital Solutions",
+  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
+)
+- Built the config-driven microservice core and frontend configurator of Government Savings Bank's loan-origination platform, allowing bank staff to launch loan products without code deployment
+- Enabled backend engineers to visualize traces from 4GB+ ELK logs as interactive sequence diagrams by building Kenbani with React, Bun, and SQLite FTS5
+- For a LegalTech agentic system, *reduced average pipeline cost by 22.7%* while increasing law recall from 41.8% to 70.7% by building a reusable Go/Python evaluation harness for 144 language model swaps
+
 == Projects
+
+#project(
+  name: "Rebase: Version Control for Resumes",
+  role: "Founding Engineer",
+  dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
+)
+- Built production Stripe billing system handling subscription lifecycle, webhook error recovery, and credit race conditions; implemented JWT-secured cron functions and row-level security policies
+- Led 3-person engineering team through *62 PR reviews*, establishing code review standards; architected CI/CD pipelines for database migrations and schema-driven typing to prevent drift
 
 #project(
   dates: "November 2025",
@@ -69,7 +89,7 @@
   role: "Full-stack Developer",
   url: "") \
   #link("https://devpost.com/software/grillme-ai")[devpost.com/software/grillme-ai]
-  - Built full-stack AI mock interview platform with custom ElevenLabs voice agent and real-time feedback generation; *top 4* at UBC BizTech/a16z Kickstart competition (70+ teams); garnered *200+ organic signups* in first week
+  - Built full-stack AI mock interview platform with custom ElevenLabs voice agent and real-time feedback generation, winning *top 4 of 70+* teams at UBC BizTech/a16z Kickstart competition and garnering *200+ organic signups* in first week
   - Relevant tools/libraries: _Supabase, OpenAI, ElevenLabs, TypeScript, Cloudflare Workers_
 
 #project(
@@ -92,27 +112,6 @@
 //   - Engineered user authentication, parallelized & sandboxed code execution, and display of grading results.
 //   - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
 
-== Work Experience
-
-#work(
-  title: "Software Engineer Intern",
-  location: "Bangkok, TH",
-  company: "TN Digital Solutions",
-  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
-)
-- Built the config-driven core of Government Savings Bank's loan-origination platform (Go microservices, *20*+ eng team): a transactional engine that atomically publishes product drafts across *10*+ tables, so the bank ships new loan products with no code deploy
-- Hardened async Kafka consumers with retry-vs-skip error classification, eliminating poison-record worker freezes; migrated external mocks Stubby #sym.arrow WireMock and ran the stack on LocalStack
-- Built _Kenbani_, a log inspector (React 19, Bun, SQLite FTS5) reconstructing distributed traces into interactive SVG sequence diagrams; parses *1GB+* logs off the main thread with a streaming JSON parser resilient to SSH line-wrapping
-
-#work(
-  title: "Founding Engineer",
-  location: "Vancouver, BC",
-  company: "Rebase",
-  dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
-)
-- Built production Stripe billing system handling subscription lifecycle, webhook error recovery, and credit race conditions; implemented JWT-secured cron functions and row-level security policies
-- Led 3-person engineering team through *62 PR reviews*, establishing code review standards; architected CI/CD pipelines for database migrations and schema-driven typing to prevent drift
-
 == Technical Skills
 *Languages & Frameworks*: Go, Python, Java, R, TS/JS (React, Next.js), SvelteKit, Astro, Tailwind \
 *Data & Infrastructure*: PostgreSQL, Kafka, SQLite, Docker, LocalStack, Cloudflare, Supabase, Vercel \
@@ -121,13 +120,13 @@
 == Leadership and Activities
 
 #work(
-  title: "Event Committee Executive",
+  title: "Co-President",
   location: "Vancouver, BC",
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- Built custom React webapp for Spectrum activity (Jubilee Middle Ground-style format), enabling real-time audience participation and opinion visualization
-- Drove *220%* attendance increase and *570%* social media growth through strategic event planning, speaker partnerships, and cross-functional marketing collaboration
+- Led a team of 16 to organize programs, events, reading groups, and workshops for Canada's most established AI safety student organization, with the goal of reducing existential and catastraphoic risks from advanced AI systems
+- As prev. Co-Facilitator, designed the curriculum for and facilitated this year's “Intro to AI Alignment” course for a cohort of ~10 students; as prev. Event Coordinator, built custom React webapp for Spectrum activity to engage participants in real-time
 
 // #work(
 //   title: "Founding Member",
