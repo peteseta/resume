@@ -69,9 +69,9 @@
   company: "TN Digital Solutions",
   dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
 )
-- Reduced average pipeline-run cost 22.7% while increasing law recall 69.1% by building a reusable Go/Python harness to map a cost/quality Pareto frontier; made reusable by building a generic evaluation orchestrator and microservice adapters
-- Made Thai legal-AI evaluations more trustworthy by validating an LLM judge against a human lawyer and pairing it with deterministic citation, recall, and unsupported-claim checks
-- Researched the legal-RAG modeling space (hierarchy-aware chunking, BGE-M3 retrieval, Thai fine-tuned models like Typhoon or SEA-LION) and measured how constrained decoding and reasoning affect answer faithfulness and citation grounding
+- For a LegalTech Agenic system, reduced average pipeline-run cost 22.7% while increasing law recall 69.1% by building a generic Go/Python model evaluation harness to map a cost/quality Pareto frontier
+- Made evaluations more trustworthy by validating an LLM judge against a human lawyer and pairing it with deterministic citation, recall, and unsupported-claim checks from the ground truth dataset
+- Researched the legal-RAG modeling space (hierarchy-aware chunking, BGE-M3 retrieval, Thai fine-tuned models like Typhoon or SEA-LION) and measured how constrained decoding and reasoning affect content safety, faithfulness and citation grounding
 
 == Projects
 
