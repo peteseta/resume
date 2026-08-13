@@ -61,14 +61,53 @@
 // - IB score: 43/45
 // - Bilingual diploma in English and Thai
 
+
+== Work Experience
+
+#work(
+  title: "Software Engineer Intern",
+  location: "Bangkok, TH",
+  company: "TN Digital Solutions",
+  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
+)
+- Enabled Government Savings Bank staff to design, validate, and launch new credit products without engineering involvement by shipping a self-serve policy studio and publishing workflow
+- Translated legal users' issue-tree workflow into measurable evaluation criteria, reducing average pipeline-run cost 22.7% and increasing law recall from 41.8% to 70.7%; presented the recommendation to the project lead and CEO
+- Gave the backend team reusable workflows for schedule-data import and distributed-trace debugging by shipping Kendulix, a Schedulix importer, and Kenbani, an ELK-log visualizer
+
+#work(
+  title: "Analyst Intern",
+  location: "Bangkok, TH / London, UK",
+  company: "Ratio Ventures Limited",
+  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
+)
+- Secured key stakeholder engagement for Arogga's extended seed round and managed outreach for *24 portfolio companies*
+- Shaped fund deployment by identifying high-potential SEA ClimateTech verticals that informed deal sourcing and screening
+
+// #work(
+//   title: "Engineer Intern",
+//   location: "Bangkok, TH",
+//   company: "ETRAN (Thailand) Co., Ltd.",
+//   dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
+// )
+// - Prevented *5,400+* batteries from landfills by 2027 while providing affordable energy access to underserved rural Thai households, identifying market opportunity in EV battery waste and designing upcycling solution
+// - Validated product feasibility for battery-solar integration by balancing engineering constraints, cost targets, and user accessibility needs; defined technical requirements that enabled a *successful pilot installation*
+  
 == Projects
+
+#project(
+  name: "Rebase: Version Control for Resumes",
+  role: "Founding Product Lead",
+  dates: dates-helper(start-date: "November 2025", end-date: "January 2026")
+) \
+#link("https://tryrebase.io")[tryrebase.io]
+- Led product development from MVP to public beta, defining a roadmap that prioritized core functionality then differentiating features based on user testing; drove *85% latency reduction* by setting technical requirements for the LLM pipeline
 
 #project(
   dates: "November 2025",
   name: "GrillMe AI: AI Mock Interview Platform",
   role: "Product Lead & Full-stack Developer",
   url: "") \
-  #link("devpost.com/software/grillme-ai")
+  #link("https://devpost.com/software/grillme-ai")[devpost.com/software/grillme-ai]
   - Validated product-market fit with *200+ organic waitlist signups* and *top 4* at UBC BizTech/a16z Kickstart, identifying interview prep accessibility gap for early-career students; led *4-person team* to ship MVP in *12 hours*
   - Reduced pain point (_time to interview start_) by *\~80%* by defining product strategy that prioritized personalization (resume/JD-tailored questions); coordinated parallel development and made critical scope trade-offs based on early user feedback
   - Relevant tools/libraries: _Figma, Supabase, OpenAI/ElevenLabs APIs, TypeScript, Cloudflare_
@@ -93,42 +132,6 @@
 //   - Engineered user authentication, parallelized & sandboxed code execution, and display of grading results.
 //   - Relevant tools/libraries: _SvelteKit, TailwindCSS, Vite + Supabase, TS/JS, Vercel_
 
-== Work Experience
-
-#work(
-  title: "Software Engineer Intern",
-  location: "Bangkok, TH",
-  company: "TN Digital Solutions",
-  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
-)
-- Delivered self-serve loan-product creation for Government Savings Bank: shipped the operator-facing policy studio (React/TS) and the publishing engine behind it, letting staff design, validate, and launch new credit products with no engineering involvement
-- Owned model selection for a Thai legal-AI product via a cost/quality LLM-as-judge evaluation, identifying a configuration with *\~71%* lower projected cost at parity quality
-
-#work(
-  title: "Founding Product Lead",
-  location: "Vancouver, BC",
-  company: "Rebase",
-  dates: dates-helper(start-date: "November 2025", end-date: "January 2026"),
-)
-- Led product development from MVP to public beta, defining a roadmap that prioritized core functionality then differentiating features based on user testing; drove *85% latency reduction* by setting technical requirements for the LLM pipeline
-
-#work(
-  title: "Analyst Intern",
-  location: "Bangkok, TH / London, UK",
-  company: "Ratio Ventures Limited",
-  dates: dates-helper(start-date: "May 2023", end-date: "August 2023"),
-)
-- Secured key stakeholder engagement for Arogga's extended seed round, managing investor strategy across *24 portfolio companies*; shaped fund deployment by identifying high-potential SEA ClimateTech verticals that informed deal sourcing and screening
-
-// #work(
-//   title: "Engineer Intern",
-//   location: "Bangkok, TH",
-//   company: "ETRAN (Thailand) Co., Ltd.",
-//   dates: dates-helper(start-date: "May 2022", end-date: "October 2022"),
-// )
-// - Prevented *5,400+* batteries from landfills by 2027 while providing affordable energy access to underserved rural Thai households, identifying market opportunity in EV battery waste and designing upcycling solution
-// - Validated product feasibility for battery-solar integration by balancing engineering constraints, cost targets, and user accessibility needs; defined technical requirements that enabled a *successful pilot installation*
-  
 == Technical Skills
 *Product & Analytics*: Figma, Figjam, Notion, Cloudflare Analytics, Vercel Analytics, Typeform, Github Projects, SQL \
 *Development*: TypeScript, Python, Supabase, Git, Cloudflare, Vercel \
@@ -137,13 +140,13 @@
 == Leadership and Activities
 
 #work(
-  title: "Event Committee Executive",
+  title: "Co-President",
   location: "Vancouver, BC",
   company: "UBC AI Safety",
   dates: dates-helper(start-date: "June 2025", end-date: "Present"),
 )
-- Identified need for audience engagement tooling and shipped custom React webapp for hosting engaging Spectrum discussion activities (Jubilee Middle Ground-style)
-- Grew event attendance by *220%* and social media engagement by *570%* through strategic event planning, speaker partnerships, and cross-functional marketing collaboration
+- Led a team of 16 to organize programs, events, reading groups, and workshops for Canada's most established AI safety student organization, with the goal of reducing existential and catastraphoic risks from advanced AI systems
+- As prev. Co-Facilitator, designed the curriculum for and facilitated this year's “Intro to AI Alignment” course for a cohort of ~10 students; as prev. Event Coordinator, grew event attendance by *220%* and social media engagement by *570%*
 
 // #work(
 //   title: "Founding Member",
