@@ -9,7 +9,7 @@
 #let github = "github.com/peteseta"
 #let linkedin = "linkedin.com/in/peteseta"
 #let phone = "(236)-983-5133"
-#let personal-site = "notbeli.vercel.dev"
+#let personal-site = "notbeli.blog"
 
 #show: resume.with(
   author: name,
