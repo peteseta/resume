@@ -71,7 +71,7 @@
   dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
 )
 - Enabled Government Savings Bank staff to design, validate, and launch new credit products without engineering involvement by shipping a self-serve policy studio and publishing workflow
-- Translated legal users' issue-tree workflow into measurable evaluation criteria, reducing average pipeline-run cost 22.7% and increasing law recall from 41.8% to 70.7%; presented the recommendation to the project lead and CEO
+- For a LegalTech agentic system, translated legal users' issue-tree workflow into measurable evaluation criteria, reducing average pipeline-run cost 22.7% and increasing law recall from 69.1%; presented the recommendation to decision makers
 - Gave the backend team reusable workflows for schedule-data import and distributed-trace debugging by shipping Kendulix, a Schedulix importer, and Kenbani, an ELK-log visualizer
 
 #work(
